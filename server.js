@@ -37,7 +37,7 @@ app.use(cors(corsOption));
 app.use("/api/v1/user", userRouter);
 
 app.get('/', (req, res) => {
-  res.send('🎬 Movie Ticket Booking Backend is running successfully!');
+  res.send(' Movie Ticket Booking Backend is running successfully!');
 });
 
 // connect to database then start server
